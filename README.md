@@ -1,6 +1,6 @@
 # Project Overview
 
-This project is a web scraper designed to extract testimonials from individuals who have shared their experiences of sexual assault or related crimes on the website BalanceTonPorc. The goal is to collect and structure this data for research, analysis, and awareness purposes while ensuring responsible and ethical scraping practices.
+This project is a web scraper designed to extract testimonials from individuals who have shared their experiences of sexual assault or related crimes on the french website BalanceTonPorc. The goal is to collect and structure this data for research, analysis, and awareness purposes while ensuring responsible and ethical scraping practices.
 
 # Features
 
