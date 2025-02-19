@@ -6,23 +6,23 @@ This project is a web scraper designed to extract testimonials from individuals 
 
 Scrapes testimonial articles from multiple pages of the website.
 
-Extracts key details, including:
++ Extracts key details, including:
 
-- Title of the testimonial
+  - Title of the testimonial
 
-- Theme or category of the post
+  - Theme or category of the post
 
-- Full text of the testimonial
+  - Full text of the testimonial
 
-- Date of publication
+  - Date of publication
 
-Implements User-Agent rotation to minimize detection.
++ Implements User-Agent rotation to minimize detection.
 
-Uses session persistence to maintain cookies and headers.
++ Uses session persistence to maintain cookies and headers.
 
-Respects server load by implementing randomized delays between requests.
++ Respects server load by implementing randomized delays between requests.
 
-Saves scraped data as a structured CSV file.
++ Saves scraped data as a structured CSV file.
 
 # Dependencies
 
@@ -48,3 +48,21 @@ python scraper.py
 4. View results
 
 The scraped testimonials will be saved in `scraped_articles.csv`.
+
+# Ethical Considerations
+
++ Respect website terms: Ensure scraping aligns with the website’s robots.txt policies.
+
++ Use data responsibly: The extracted testimonials contain sensitive information; handle it with care.
+
++ Avoid excessive requests: Implementing delays prevents overwhelming the website’s server.
+
+# Future Enhancements
+
++ Implement proxy rotation to further reduce detection.
+
++ Integrate Natural Language Processing (NLP) for sentiment analysis and classification.
+
++ Develop a user-friendly interface for non-technical users.
+
++ Expand scraping to additional relevant platforms.
